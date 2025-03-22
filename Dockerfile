@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # 将jar包添加到容器中并更名为app.jar
-COPY target/ServiceB.jar appb.jar
+COPY build/lib/ServiceB-0.0.1-SNAPSHOT.jar appb.jar
 
 # 暴露端口（如果你的Spring Boot应用使用的是非8080端口，请相应修改）
 EXPOSE 8088
