@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.exampleB.ServiceB.ServiceBApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-22T11:39:41.676Z" hostname="QL" time="0.444">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.exampleB.ServiceB.ServiceBApplicationTests" time="0.444"/>
+  <system-out><![CDATA[19:39:40.299 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.exampleB.ServiceB.ServiceBApplicationTests]: ServiceBApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:39:40.389 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.exampleB.ServiceB.ServiceBApplication for test class com.exampleB.ServiceB.ServiceBApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-22T19:39:40.661+08:00  INFO 23724 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : Starting ServiceBApplicationTests using Java 17.0.12 with PID 23724 (started by Li Qiang in D:\Spring boot\ServiceBGit)
+2025-03-22T19:39:40.662+08:00  INFO 23724 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-03-22T19:39:41.668+08:00  INFO 23724 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : Started ServiceBApplicationTests in 1.174 seconds (process running for 1.975)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
