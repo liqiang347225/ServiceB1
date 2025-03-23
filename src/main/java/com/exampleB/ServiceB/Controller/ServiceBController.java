@@ -16,6 +16,11 @@ public class ServiceBController {
 
     @GetMapping("callServiceA")
     public ResponseEntity<String>callServiceA(){
-        return resetTemplate.getForEntity("http://localhost:8088/api/ServiceA/data", String.class);
+        return resetTemplate.getForEntity("http://35.203.129.228/api/ServiceA/data", String.class);
+    }
+
+    @GetMapping("/")
+    public String Index(){
+        return "Root Service B";
     }
 }
