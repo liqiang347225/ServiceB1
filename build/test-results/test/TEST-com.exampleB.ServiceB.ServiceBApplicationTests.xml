@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.exampleB.ServiceB.ServiceBApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-24T12:22:43.569Z" hostname="QL" time="0.505">
+<testsuite name="com.exampleB.ServiceB.ServiceBApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-25T05:50:02.553Z" hostname="QL" time="0.5">
   <properties/>
-  <testcase name="contextLoads()" classname="com.exampleB.ServiceB.ServiceBApplicationTests" time="0.505"/>
-  <system-out><![CDATA[20:22:42.181 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.exampleB.ServiceB.ServiceBApplicationTests]: ServiceBApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:22:42.268 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.exampleB.ServiceB.ServiceBApplication for test class com.exampleB.ServiceB.ServiceBApplicationTests
+  <testcase name="contextLoads()" classname="com.exampleB.ServiceB.ServiceBApplicationTests" time="0.5"/>
+  <system-out><![CDATA[13:50:01.062 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.exampleB.ServiceB.ServiceBApplicationTests]: ServiceBApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:50:01.149 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.exampleB.ServiceB.ServiceBApplication for test class com.exampleB.ServiceB.ServiceBApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-03-24T20:22:42.571+08:00  INFO 10788 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : Starting ServiceBApplicationTests using Java 17.0.12 with PID 10788 (started by Li Qiang in D:\Spring boot\ServiceBGit)
-2025-03-24T20:22:42.572+08:00  INFO 10788 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2025-03-24T20:22:43.546+08:00  INFO 10788 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : Started ServiceBApplicationTests in 1.159 seconds (process running for 2.016)
+2025-03-25T13:50:01.437+08:00  INFO 17396 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : Starting ServiceBApplicationTests using Java 17.0.12 with PID 17396 (started by Li Qiang in D:\Spring boot\ServiceBGit)
+2025-03-25T13:50:01.438+08:00  INFO 17396 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-03-25T13:50:02.540+08:00  INFO 17396 --- [ServiceB] [    Test worker] c.e.ServiceB.ServiceBApplicationTests    : Started ServiceBApplicationTests in 1.278 seconds (process running for 2.103)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

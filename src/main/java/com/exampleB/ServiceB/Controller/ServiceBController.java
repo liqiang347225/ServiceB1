@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("api/serviceB")
+@RequestMapping("api/serviceb")
 public class ServiceBController {
 
     @Autowired
     private RestTemplate resetTemplate;
 
-    @GetMapping("callServiceA")
+    @GetMapping("callservicea")
     public ResponseEntity<String>callServiceA(){
-        return resetTemplate.getForEntity("http://servicea/api/ServiceA/data", String.class);
+        return resetTemplate.getForEntity("http://servicea/api/servicea/data", String.class);
     }
 
     @GetMapping("/")
